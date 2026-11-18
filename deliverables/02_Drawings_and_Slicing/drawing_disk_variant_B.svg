@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 650" width="1180" height="650">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#1D4ED8"/>
+    </marker>
+    <marker id="arrowBlk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#0F172A"/>
+    </marker>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#F1F5F9" stroke-width="0.9"/>
+    </pattern>
+    <pattern id="hatch" width="7" height="7" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#64748B" stroke-width="1.0"/>
+    </pattern>
+  </defs>
+
+  <!-- Background & Engineering Grid -->
+  <rect width="1180" height="650" fill="#FFFFFF"/>
+  <rect x="18" y="18" width="1144" height="614" fill="url(#grid)" stroke="#0F172A" stroke-width="2.2"/>
+  <rect x="24" y="24" width="1132" height="602" fill="none" stroke="#64748B" stroke-width="0.8"/>
+
+  <!-- Left View Header -->
+  <text x="275" y="48" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700" fill="#0F172A">ВИД СПЕРЕДИ · ДИСК СМЕННЫЙ (N = 12)</text>
+  <line x1="538" y1="24" x2="538" y2="626" stroke="#CBD5E1" stroke-width="1.1"/>
+
+  <!-- Centerlines -->
+  <line x1="60" y1="266" x2="498" y2="266" stroke="#94A3B8" stroke-width="0.9" stroke-dasharray="16,3,2,3"/>
+  <line x1="275" y1="64" x2="275" y2="482" stroke="#94A3B8" stroke-width="0.9" stroke-dasharray="16,3,2,3"/>
+
+  <!-- Outer Disc & Pitch Circle -->
+  <circle cx="275" cy="266" r="171.0" fill="#F8FAFC" fill-opacity="0.82" stroke="#0F172A" stroke-width="2.4"/>
+  <circle cx="275" cy="266" r="134.0" fill="none" stroke="#1D4ED8" stroke-width="1.1" stroke-dasharray="8,3,2,3"/>
+  <circle cx="275" cy="266" r="77.0" fill="none" stroke="#64748B" stroke-width="0.9" stroke-dasharray="4,3"/>
+
+  
+      <g>
+        <circle cx="275.0" cy="132.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="275.0" cy="132.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="256.9" y1="132.0" x2="293.1" y2="132.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="275.0" y1="113.9" x2="275.0" y2="150.2" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="270.6" y="181.1" width="8.8" height="16" rx="1.2" transform="rotate(0.0 275.0 189.1)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="275.0" y="110.7" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">1</text>
+      </g>
+    
+      <g>
+        <circle cx="342.0" cy="150.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="342.0" cy="150.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="323.9" y1="150.0" x2="360.1" y2="150.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="342.0" y1="131.9" x2="342.0" y2="168.1" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="309.1" y="191.4" width="8.8" height="16" rx="1.2" transform="rotate(30.0 313.5 199.4)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="354.3" y="131.9" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">2</text>
+      </g>
+    
+      <g>
+        <circle cx="391.0" cy="199.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="391.0" cy="199.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="372.9" y1="199.0" x2="409.1" y2="199.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="391.0" y1="180.9" x2="391.0" y2="217.1" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="337.2" y="219.5" width="8.8" height="16" rx="1.2" transform="rotate(60.0 341.6 227.5)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="412.3" y="189.9" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">3</text>
+      </g>
+    
+      <g>
+        <circle cx="409.0" cy="266.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="409.0" cy="266.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="390.8" y1="266.0" x2="427.1" y2="266.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="409.0" y1="247.9" x2="409.0" y2="284.1" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="347.6" y="258.0" width="8.8" height="16" rx="1.2" transform="rotate(90.0 351.9 266.0)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="433.5" y="269.2" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">4</text>
+      </g>
+    
+      <g>
+        <circle cx="391.0" cy="333.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="391.0" cy="333.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="372.9" y1="333.0" x2="409.1" y2="333.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="391.0" y1="314.9" x2="391.0" y2="351.1" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="337.2" y="296.5" width="8.8" height="16" rx="1.2" transform="rotate(120.0 341.6 304.5)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="412.3" y="348.4" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">5</text>
+      </g>
+    
+      <g>
+        <circle cx="342.0" cy="382.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="342.0" cy="382.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="323.9" y1="382.0" x2="360.1" y2="382.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="342.0" y1="363.9" x2="342.0" y2="400.1" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="309.1" y="324.6" width="8.8" height="16" rx="1.2" transform="rotate(150.0 313.5 332.6)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="354.3" y="406.5" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">6</text>
+      </g>
+    
+      <g>
+        <circle cx="275.0" cy="400.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="275.0" cy="400.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="256.9" y1="400.0" x2="293.1" y2="400.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="275.0" y1="381.8" x2="275.0" y2="418.1" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="270.6" y="334.9" width="8.8" height="16" rx="1.2" transform="rotate(180.0 275.0 342.9)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="275.0" y="427.7" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">7</text>
+      </g>
+    
+      <g>
+        <circle cx="208.0" cy="382.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="208.0" cy="382.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="189.9" y1="382.0" x2="226.1" y2="382.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="208.0" y1="363.9" x2="208.0" y2="400.1" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="232.1" y="324.6" width="8.8" height="16" rx="1.2" transform="rotate(210.0 236.5 332.6)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="195.8" y="406.5" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">8</text>
+      </g>
+    
+      <g>
+        <circle cx="159.0" cy="333.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="159.0" cy="333.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="140.9" y1="333.0" x2="177.1" y2="333.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="159.0" y1="314.9" x2="159.0" y2="351.1" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="204.0" y="296.5" width="8.8" height="16" rx="1.2" transform="rotate(240.0 208.4 304.5)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="137.7" y="348.5" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">9</text>
+      </g>
+    
+      <g>
+        <circle cx="141.0" cy="266.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="141.0" cy="266.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="122.9" y1="266.0" x2="159.2" y2="266.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="141.0" y1="247.9" x2="141.0" y2="284.1" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="193.7" y="258.0" width="8.8" height="16" rx="1.2" transform="rotate(270.0 198.1 266.0)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="116.5" y="269.2" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">10</text>
+      </g>
+    
+      <g>
+        <circle cx="159.0" cy="199.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="159.0" cy="199.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="140.9" y1="199.0" x2="177.1" y2="199.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="159.0" y1="180.9" x2="159.0" y2="217.1" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="204.0" y="219.5" width="8.8" height="16" rx="1.2" transform="rotate(300.0 208.4 227.5)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="137.7" y="189.9" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">11</text>
+      </g>
+    
+      <g>
+        <circle cx="208.0" cy="150.0" r="18.2" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="4,2"/>
+        <circle cx="208.0" cy="150.0" r="13.1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+        <line x1="189.9" y1="150.0" x2="226.1" y2="150.0" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <line x1="208.0" y1="131.9" x2="208.0" y2="168.1" stroke="#64748B" stroke-width="0.6" stroke-dasharray="4,2,1,2"/>
+        <rect x="232.1" y="191.4" width="8.8" height="16" rx="1.2" transform="rotate(330.0 236.5 199.4)" fill="#E2E8F0" stroke="#334155" stroke-width="1.1"/>
+        <text x="195.7" y="131.9" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#0F172A">12</text>
+      </g>
+    
+
+  <!-- Central D-Shaft Bore & 3xM3 Mounting Holes -->
+  <circle cx="275" cy="266" r="11.7" fill="#FFFFFF" stroke="#0F172A" stroke-width="2.2"/>
+  <line x1="284.4" y1="256.9" x2="284.4" y2="275.1" stroke="#0F172A" stroke-width="2.4"/>
+  <circle cx="275.0" cy="231.8" r="4.7" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.4"/><circle cx="304.6" cy="283.1" r="4.7" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.4"/><circle cx="245.4" cy="283.1" r="4.7" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.4"/>
+
+  <!-- Section Cut Arrows B-B (ESKD) -->
+  <line x1="74" y1="266" x2="108" y2="266" stroke="#0F172A" stroke-width="3.6"/>
+  <line x1="92" y1="266" x2="92" y2="244" stroke="#0F172A" stroke-width="1.3" marker-end="url(#arrowBlk)"/>
+  <text x="80" y="256" font-family="Plus Jakarta Sans, sans-serif" font-size="13.5" font-weight="700" fill="#0F172A">В</text>
+
+  <line x1="442" y1="266" x2="476" y2="266" stroke="#0F172A" stroke-width="3.6"/>
+  <line x1="458" y1="266" x2="458" y2="244" stroke="#0F172A" stroke-width="1.3" marker-end="url(#arrowBlk)"/>
+  <text x="466" y="256" font-family="Plus Jakarta Sans, sans-serif" font-size="13.5" font-weight="700" fill="#0F172A">В</text>
+
+  <!-- Bore Leader Callout (upper-left) -->
+  <polyline points="269,260 217,188 65,188" fill="none" stroke="#0F172A" stroke-width="1.2"/>
+  <text x="211" y="181" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="700" fill="#0F172A">Ø8.20 (+0.15/+0.05)</text>
+  <text x="211" y="202" text-anchor="end" font-family="IBM Plex Sans, sans-serif" font-size="9.5" fill="#475569">D-вал Ø8.0 мм (D5)</text>
+
+  <!-- Encoder Slot Callout (upper-right) -->
+  <polyline points="325.0175,210.596 371,164 505,164" fill="none" stroke="#334155" stroke-width="1.1"/>
+  <text x="375" y="157" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#334155">12 пазов LM393 (3.2×6 мм)</text>
+
+  <!-- Bottom Dimension Lines -->
+  <line x1="141.04999999999998" y1="266" x2="141.04999999999998" y2="520" stroke="#1D4ED8" stroke-width="0.8"/>
+  <line x1="408.95000000000005" y1="266" x2="408.95000000000005" y2="520" stroke="#1D4ED8" stroke-width="0.8"/>
+  <line x1="144.04999999999998" y1="514" x2="405.95000000000005" y2="514" stroke="#1D4ED8" stroke-width="1.4" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="275" y="506" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" font-weight="700" fill="#1D4ED8">Ø 94.0 ±0.20 (D2 делительный)</text>
+
+  <line x1="104" y1="266" x2="104" y2="564" stroke="#1D4ED8" stroke-width="0.8"/>
+  <line x1="446" y1="266" x2="446" y2="564" stroke="#1D4ED8" stroke-width="0.8"/>
+  <line x1="107" y1="558" x2="443" y2="558" stroke="#1D4ED8" stroke-width="1.4" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="275" y="550" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" font-weight="700" fill="#1D4ED8">Ø 120.0 ±0.30 (D1 наружный)</text>
+
+  <!-- Left Footer Spec Note -->
+  <text x="275" y="604" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#475569">Мин. перемычка: 11.53 мм · Неуказанные допуски ±0.25 мм (FDM PETG)</text>
+
+  <!-- Right Column: Section B-B + Detail View I (M 4:1) -->
+  <text x="855" y="48" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700" fill="#0F172A">РАЗРЕЗ В-В (ОРИЕНТАЦИЯ ПЕЧАТИ +Z ВВЕРХ)</text>
+
+  <!-- Print Bed Line -->
+  <line x1="560" y1="218" x2="1128" y2="218" stroke="#0F766E" stroke-width="1.8" stroke-dasharray="8,4"/>
+  <text x="1125" y="236" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="700" fill="#0F766E">СТОЛ ПРИНТЕРА Z = 0 · ПОДДЕРЖКИ: 0</text>
+
+  <!-- Disc Body Cross-Section -->
+  <rect x="615" y="146" width="430" height="72" fill="url(#hatch)" stroke="#0F172A" stroke-width="2"/>
+  <rect x="805" y="146" width="50" height="72" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.6"/>
+
+  <!-- Left Cell Cutout -->
+  <rect x="658" y="146" width="56" height="56" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.7"/>
+  
+    <polygon points="644,146 658,146 658,160" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.8"/>
+    <polygon points="714,146 728,146 714,160" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.8"/>
+    <text x="686" y="132" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="700" fill="#0F766E">Фаска 1.8×45° (Вар. B)</text>
+  
+
+  <!-- Right Cell Cutout -->
+  <rect x="946" y="146" width="56" height="56" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.7"/>
+  
+    <polygon points="932,146 946,146 946,160" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.8"/>
+    <polygon points="1002,146 1016,146 1002,160" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.8"/>
+  
+
+  <!-- Cell Diameter Dimension -->
+  <line x1="658" y1="146" x2="658" y2="96" stroke="#1D4ED8" stroke-width="0.8"/>
+  <line x1="714" y1="146" x2="714" y2="96" stroke="#1D4ED8" stroke-width="0.8"/>
+  <line x1="661" y1="102" x2="711" y2="102" stroke="#1D4ED8" stroke-width="1.3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="686" y="93" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="700" fill="#1D4ED8">D_яч 9.2 (+0.2/-0.1) (D3)</text>
+
+  <!-- Depth Dimension -->
+  <line x1="1002" y1="146" x2="1076" y2="146" stroke="#1D4ED8" stroke-width="0.8"/>
+  <line x1="1002" y1="202" x2="1076" y2="202" stroke="#1D4ED8" stroke-width="0.8"/>
+  <line x1="1069" y1="149" x2="1069" y2="199" stroke="#1D4ED8" stroke-width="1.3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="1077" y="178" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="700" fill="#1D4ED8">h=7.8±0.15</text>
+
+  <!-- Thickness H Dimension -->
+  <line x1="585" y1="146" x2="615" y2="146" stroke="#1D4ED8" stroke-width="0.8"/>
+  <line x1="585" y1="218" x2="615" y2="218" stroke="#1D4ED8" stroke-width="0.8"/>
+  <line x1="592" y1="149" x2="592" y2="215" stroke="#1D4ED8" stroke-width="1.3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="583" y="185" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="700" fill="#1D4ED8">H=10.0</text>
+
+  <!-- Detail View I (Zoomed Cell Profile 4:1) -->
+  <rect x="560" y="256" width="245" height="196" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.3"/>
+  <text x="682" y="276" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5" font-weight="700" fill="#0F172A">ВЫНОСНОЙ ЭЛЕМЕНТ А (М 4:1)</text>
+  <polygon points="590,312 628,312 646,330 646,408 718,408 718,330 736,312 774,312 774,432 590,432" fill="url(#hatch)" stroke="#0F172A" stroke-width="1.6"/>
+  <rect x="646" y="330" width="72" height="78" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.4"/>
+  <polygon points="628,312 646,312 646,330" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.5"/><polygon points="718,312 736,312 718,330" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.5"/>
+  <!-- Seed outline inside cell -->
+  <circle cx="682" cy="368" r="28" fill="#BEF264" fill-opacity="0.55" stroke="#3F6212" stroke-width="1.3" stroke-dasharray="4,2"/>
+  <text x="682" y="372" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9.5" font-weight="700" fill="#365314">Ø7.2 мм</text>
+  <text x="682" y="424" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#0F172A">Дно t = 2.20 мм (≥1.6)</text>
+
+  <!-- Technical Notes Box -->
+  <rect x="818" y="256" width="320" height="196" rx="4" fill="#F8FAFC" stroke="#334155" stroke-width="1.3"/>
+  <text x="832" y="278" font-family="Plus Jakarta Sans, sans-serif" font-size="11.5" font-weight="700" fill="#0F172A">ТЕХНИЧЕСКИЕ ТРЕБОВАНИЯ (А2):</text>
+  <text x="832" y="300" font-family="IBM Plex Sans, sans-serif" font-size="10.2" fill="#334155">1. Материал: PETG (сопло 0.4 мм, слой 0.20 мм).</text>
+  <text x="832" y="321" font-family="IBM Plex Sans, sans-serif" font-size="10.2" fill="#334155">2. Печать плашмя (+Z вверх), поддержки: 0.</text>
+  <text x="832" y="342" font-family="IBM Plex Sans, sans-serif" font-size="10.2" fill="#334155">3. Периметры: 4; заполнение: 30% гироид.</text>
+  <text x="832" y="363" font-family="IBM Plex Sans, sans-serif" font-size="10.2" fill="#334155">4. Шов Z: aligned (выведен на тыльную ступицу).</text>
+  <text x="832" y="384" font-family="IBM Plex Sans, sans-serif" font-size="10.2" fill="#334155">5. Развёртка вала Ø8.0 мм; зачистка P400/P800.</text>
+  <text x="832" y="408" font-family="IBM Plex Sans, sans-serif" font-size="10.2" font-weight="700" fill="#0F766E">6. Обязательный промер штангенциркулем</text>
+  <text x="832" y="424" font-family="IBM Plex Sans, sans-serif" font-size="10.2" font-weight="700" fill="#0F766E">   всех 12 ячеек перед сборкой узла.</text>
+
+  <!-- GOST Title Block (Основная надпись ГОСТ 2.104) -->
+  <rect x="560" y="472" width="578" height="132" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+  <line x1="560" y1="510" x2="1138" y2="510" stroke="#0F172A" stroke-width="1.1"/>
+  <line x1="560" y1="544" x2="1138" y2="544" stroke="#0F172A" stroke-width="1.1"/>
+  <line x1="560" y1="574" x2="1138" y2="574" stroke="#0F172A" stroke-width="1.1"/>
+  <line x1="920" y1="472" x2="920" y2="604" stroke="#0F172A" stroke-width="1.1"/>
+  <line x1="1028" y1="510" x2="1028" y2="604" stroke="#0F172A" stroke-width="1.1"/>
+
+  <text x="740" y="497" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="13.5" font-weight="700" fill="#0F172A">AT9-3.01.001 Диск ячеистый (Вариант B · фаска)</text>
+  <text x="1029" y="497" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="700" fill="#0F172A">М 1:1 · PETG</text>
+
+  <text x="740" y="532" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#334155">Команда: Assembler · Профиль «Агротех» · Кейс AT9-3</text>
+  <text x="974" y="532" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="600" fill="#0F172A">Масса ~38 г</text>
+  <text x="1083" y="532" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#475569">Лист 1 / 2</text>
+
+  <text x="740" y="564" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="10.5" fill="#475569">Культура: горох калиброванный (6.2–8.4 мм)</text>
+  <text x="974" y="564" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#0F766E">0 поддержек</text>
+  <text x="1083" y="564" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#475569">Слой 0.20</text>
+
+  <text x="740" y="594" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.2" font-weight="600" fill="#0F172A">Перемычка 11.53 мм · Зазор направл. 0.45 мм · Отв. сброса Ø17 мм</text>
+  <text x="1029" y="594" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="700" fill="#0F766E">ДОПУСК ±0.15..0.30</text>
+</svg>
