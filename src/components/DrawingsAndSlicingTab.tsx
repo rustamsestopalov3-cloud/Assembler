@@ -6,12 +6,7 @@ import {
   VARIANT_B_PARAMS,
   evaluateDiscInvariants,
 } from '../data/deliverablesContent';
-import {
-  downloadDefenseScriptDocx,
-  downloadPresentationPptx,
-  downloadTask1Docx,
-  downloadTextFile,
-} from '../generators/bundleExporter';
+import { downloadTextFile } from '../generators/bundleExporter';
 import { generateSlicerProfileIni } from '../generators/firmwareAndTests';
 import { generateA2ReportMd } from '../generators/markdownReports';
 import { generateAssemblySectionSvg, generateDiscCriticalDrawingSvg } from '../generators/svgDrawings';
@@ -274,46 +269,6 @@ export const DrawingsAndSlicingTab: React.FC<DrawingsAndSlicingTabProps> = ({ pa
           <pre className="p-4 bg-slate-900 text-slate-100 rounded-lg text-xs font-mono overflow-x-auto max-h-[260px] leading-relaxed">
             {slicerIni}
           </pre>
-        </div>
-      </section>
-
-      {/* Defense Presentation (concise + photo placeholders) & Task 1 DOCX */}
-      <section className="bg-white border border-slate-200 rounded-xl p-6 space-y-4">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div>
-            <h2 className="text-lg font-bold text-slate-900">
-              04. Презентация (.pptx), речь для защиты (.docx) и Задание №1 (.docx)
-            </h2>
-            <p className="text-xs text-slate-500 mt-0.5">
-              Презентация адаптирована под защиту цифрового проекта; в «Текст защиты (.docx)» речь расфасована по каждому из 12 слайдов для печати на лист А4 (включая шпаргалку Q&A); Задание №1 полностью оформлено в Word.
-            </p>
-          </div>
-          <div className="flex flex-wrap items-center gap-2">
-            <button
-              type="button"
-              onClick={() => void downloadPresentationPptx()}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-pink-600 hover:bg-pink-700 text-white text-xs font-semibold rounded-lg whitespace-nowrap cursor-pointer"
-            >
-              <Download className="w-4 h-4" />
-              Презентация (.pptx)
-            </button>
-            <button
-              type="button"
-              onClick={() => void downloadDefenseScriptDocx()}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-teal-700 hover:bg-teal-800 text-white text-xs font-semibold rounded-lg whitespace-nowrap cursor-pointer"
-            >
-              <Download className="w-4 h-4" />
-              Текст защиты (.docx)
-            </button>
-            <button
-              type="button"
-              onClick={() => void downloadTask1Docx()}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-900 hover:bg-indigo-950 text-white text-xs font-semibold rounded-lg whitespace-nowrap cursor-pointer"
-            >
-              <Download className="w-4 h-4" />
-              Задание №1 (.docx)
-            </button>
-          </div>
         </div>
       </section>
     </div>
